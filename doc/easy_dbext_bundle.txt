@@ -2,7 +2,9 @@
 
 						*i_CTRL-CR*
 <CTRL-CR>	Execute command (SQL, DML, DDL etc.) in |paragraph|. 
-						*i_CTRL-C*
+						*i_SHIFT-CR*
+<SHIFT-CR>	Describe table under the cursor.
+						*i_F5*
 <F5>		Refresh (|:e| re-edit) the current file.
 						*i_CTRL-F9*
 <CTRL-F9>	Equalize all windows (|CTRL-W_=|).
@@ -17,5 +19,33 @@
 <CTRL-kMinus>	|resize| the window with -5 as parameter.
 						*i_CTRL-kPlus*
 <CTRL-kPlus>	|resize| the window with +5 as parameter.
+
+What follows are default mappings for easy mode.
+
+From |starting.txt|:
+
+EVim runs Vim as click-and-type editor.  This is very unlike the original Vi
+idea.  But it helps for people that don't use Vim often enough to learn the
+commands.  Hopefully they will find out that learning to use Normal mode
+commands will make their editing much more effective.
+
+Key mappings:
+	<Down>		moves by screen lines rather than file lines
+	<Up>		idem
+	Q		does "gq", formatting, instead of Ex mode
+	<BS>		in Visual mode: deletes the selection
+	CTRL-X		in Visual mode: Cut to clipboard
+	<S-Del>		idem
+	CTRL-C		in Visual mode: Copy to clipboard
+	<C-Insert>	idem
+	CTRL-V		Pastes from the clipboard (in any mode)
+	<S-Insert>	idem
+	CTRL-Q		do what CTRL-V used to do
+	CTRL-Z		undo
+	CTRL-Y		redo
+	<M-Space>	system menu
+	CTRL-A		select all
+	<C-Tab>		next window, CTRL-W w
+	<C-F4>		close window, CTRL-W c
 
  vim:tw=78:ts=8:ft=help:norl:
