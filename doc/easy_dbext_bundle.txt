@@ -1,23 +1,23 @@
 *easy_dbext_bundle.txt*
 
-						*i_CTRL-CR*
+						*i_<C-RETURN>*
 <C-RETURN>	Execute command (SQL, DML, DDL etc.) in |paragraph|. 
-						*i_SHIFT-CR*
+						*i_<S-RETURN>*
 <S-RETURN>	Describe table under the cursor.
-						*i_F5*
+						*i_<F5>*
 <F5>		Refresh (|:e| re-edit) the current file.
-						*i_CTRL-F9*
+						*i_<C-F9>*
 <C-F9>		Equalize all windows (|CTRL-W_=|).
 
-						*i_F9*
+						*i_<F9>*
 <F9>		Execute DBResultsOpen (|dbext.vim|) if in a buffer other than Result; toggle
                 its size (tall or short) when in it.
-						*i_F10*
+						*i_<F10>*
 <F10>		Execute DBResultsClose (|dbext.vim|).
 
-						*i_CTRL-kMinus*
+						*i_<C-kMinus>*
 <C-kMinus>	|resize| the window with -5 as parameter.
-						*i_CTRL-kPlus*
+						*i_<C-kPlus>*
 <C-kPlus>	|resize| the window with +5 as parameter.
 
 Easy mode also sources |$VIMRUNTIME|/mswin.vim, which, among others, provides
