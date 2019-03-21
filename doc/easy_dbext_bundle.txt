@@ -1,11 +1,11 @@
 *easy_dbext_bundle.txt*
 
+Global bindings:
+
 						*i_<C-RETURN>*
 <C-RETURN>	Execute command (SQL, DML, DDL etc.) in |paragraph|. 
 						*i_<S-RETURN>*
 <S-RETURN>	Describe table under the cursor.
-						*i_<F5>*
-<F5>		Refresh (|:e| re-edit) the current file.
 						*i_<C-F9>*
 <C-F9>		Equalize all windows (|CTRL-W_=|).
 
@@ -19,6 +19,11 @@
 <C-kMinus>	|resize| the window with -5 as parameter.
 						*i_<C-kPlus>*
 <C-kPlus>	|resize| the window with +5 as parameter.
+
+Bingings exclusive to SQL buffers (|sql.vim|):
+
+Esc Esc		- Make the current window the only one on the screen (|:only|).
+F5		- Refresh (|:e| re-edit) the current file.
 
 Easy mode also sources |$VIMRUNTIME|/mswin.vim, which, among others, provides
 the following binding:
