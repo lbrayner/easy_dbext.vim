@@ -9,6 +9,9 @@ Global bindings:
 						*i_<C-F9>*
 <C-F9>		Equalize all windows (|CTRL-W_=|).
 
+						*i_<F8>*
+<F8>		Toggle |'wrap'|: when on, lines longer than the width of the
+		window will wrap and displaying continues on the next line.
 						*i_<F9>*
 <F9>		Execute DBResultsOpen (|dbext.vim|) if in a buffer other than Result; toggle
                 its size (tall or short) when in it.
