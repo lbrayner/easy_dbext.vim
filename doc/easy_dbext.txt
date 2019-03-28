@@ -1,4 +1,8 @@
-*easy_dbext_bundle.txt*
+*easy_dbext.txt*
+
+<F1>		Close this window.
+
+(It's actually an |Insert-mode| mapping for |help| buffers.)
 
 Global bindings:
 
